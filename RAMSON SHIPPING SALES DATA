@@ -1,0 +1,62 @@
+Welcome to the MPROJECT wiki!
+
+SOURCE: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
+
+ABOUT DATASET
+The dataset is a Retail dataset of a global store for 4 years. It was downloaded as a CSV file and it was converted to an excel file before the analysis . However, containing 23 columns and 9994 rows. The column details include the Row ID, Order ID, Ship mode, Order Date, Ship Date, Customer ID, Customer Name, Segment , Country, City, State, Postal Code, Region, Product ID, Category, Sub-Category, Product Name, Sales, Quantity, Discount, Profit, Profit Margin.
+
+image Dataset
+
+DATA PROCESSING
+ Dataset was downloaded from Kaggle .
+
+ Remove Duplicate
+
+ Convert data type to where necessary
+
+ Then I transform my cleaned dataset using the power bi app.
+
+The steps in cleaning a datasets can varies depending on the data used .
+
+DATA ANALYSIS The dataset was transform in the power bi app where I removed unnecessary column,I renamed my dimension table after removing the unwanted columns, I also included the date table extracted the year, week and quarter.
+
+image Transformed dataset in power bi
+
+image Date
+
+Then I created a model to connect my data together in the power bi app. This analysis doesn’t require a pivot table since I am using the power bi. image
+
+DATA VISUALIZATION
+Below are the various steps involved in data visualization.
+
+ Prepare a sketch dashboard
+
+ Use the best chart type to represent your data
+
+ Create a chart for each of the datasets
+
+ Slicers was included on the dashboard which involve drop list
+
+ Reference values where necessary such as total numbers or count of data. etc
+
+A Sketch Dashboard
+
+image
+
+Below is the final dashboard.
+
+image
+
+image
+
+image
+
+INSIGHT
+
+• Office supplies as the highest quantity in the category section with 60.48% where furniture and technology as 21.2% and 18.32% respectively.
+
+• Higher sales of product are made in the western region while the least sales was made in south region.
+
+• Also the dashboard include the sum of quantity by state, sum of profit by state, sum of sales by state, sum of sales by regions, sum of sales by product e.t.c.
+
+Recommendations, comment and advice on ways of improving in my this skill will be appreciated.
